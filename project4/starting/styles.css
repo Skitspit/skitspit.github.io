@@ -1,0 +1,152 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+html {
+   background-color: #2d2d30;
+   color: white;
+   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+   letter-spacing: 0.2em;
+}
+h1 {
+   font-size: 26px;
+   font-weight: 300;
+}
+h2 {
+   font-size: 18px;
+   font-weight: bold;
+}
+p {
+   font-size: 16px;
+   font-weight: 200;
+}
+a {
+   text-transform: uppercase;
+   color: #007acc;
+   font-weight: bold;
+   text-decoration: none;
+   font-style: italic;
+}
+a:hover {
+   color: white;
+}
+
+/* NAV BAR */
+.nav-bar {
+   position: fixed;
+   background-color: #3e3e42;
+   padding: 15px;
+   width: 100%;
+   padding-top: 25px;
+   height: 25px;
+   z-index: 999;
+   border-bottom: 3px solid gray;
+}
+.nav-bar li {
+   display: inline;
+   text-transform: uppercase;
+   color: white;
+   text-decoration: none;
+   padding: 5px;
+   text-align: center;
+   border-radius: 5px;
+   font-weight: bold;
+   cursor: pointer;
+}
+.nav-bar li:hover {
+   background-color: #252526;
+   color: #007acc;
+   border: 1px solid #007acc;
+}
+.nav-bar li:active {
+   background-color: #007acc;
+   color: white;
+   border: 1px solid white;
+}
+.nav-link a{
+   color: white;
+}
+.nav-link {
+   background-color: #1e1e1e;
+}
+/* HEADER NAME */
+.aboutme {
+   position: relative;
+   padding: 275px ;
+   background-image: url("https://www.customerparadigm.com/wp-content/uploads/2019/11/code-featured-splash-background-blur.jpg");
+   background-size: auto;
+   max-height: 200px;
+}
+.aboutme h1 {
+   font-size: 80px;
+   font-weight: bold;
+   font-style: italic;
+   left: 15px;
+}
+.aboutme h2 {
+   padding: 15px;
+   font-weight: lighter;
+}
+.aboutme p {
+   border-top: 1px solid gray;
+   padding-top: 15px;
+}
+button {
+   position: relative;
+   text-align: center;
+   display: grid;
+   margin: auto;
+   margin-top: 100px;
+   padding: 20px 15px;
+   border-radius: 5px;
+   background-color: #1e1e1e;
+   text-decoration: none;
+   font-weight: bold;
+   font-style: italic;
+   font-size: 15px;
+   border: 1px solid gray;
+}
+button a {
+ color: white;
+}
+button:hover {
+   border: 1px solid #007acc;
+   color: #007acc;
+   cursor: pointer;
+}
+button:active {
+   border: 1px solid white;
+   background-color: #007acc;
+}
+
+/* BOXES */
+.boxsection {
+   position: relative;
+   text-align: center;
+}
+.box-1 {
+   position: absolute;
+   background-color: white;
+   color: black;
+   width: 500px;
+   height: 500px;
+   margin-top: 20%;
+   left: 30%;
+   z-index: 2;
+}
+.box-2 {
+   position: absolute;
+   background-color: black;
+   color: white;
+   width: 500px;
+   height: 500px;
+   margin-top: 13%;
+   left: 45%;
+   z-index: 1;
+}
+.box-text {
+   padding: 100px;
+   font-weight: bold;
+   font-style: italic;
+   background-image: linear-gradient(to bottom, #007acc, rgba(0, 0, 0, 0));
+}
